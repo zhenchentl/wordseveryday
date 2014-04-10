@@ -1,5 +1,7 @@
 <resources>
 
-    <string name="app_name">wordseveryday</string>
+    <string name="app_name">每日一语</string>
+    <string name="bad_net">下载失败，请检查网络设置</string>
+    <string name="update_source">更新源</string>
 
 </resources>
