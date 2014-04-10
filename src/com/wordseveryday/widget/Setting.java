@@ -39,8 +39,9 @@ public class Setting extends Activity{
             webPage = NetHelper.getWebPage(WordsConstant.SOURSE_URL);
             if (webPage == null) {
                 mHandler.sendEmptyMessage(BAD_NET);
+            }else {
+                mHandler.sendEmptyMessage(FINISHED);
             }
-            mHandler.sendEmptyMessage(FINISHED);
         }
     };
     
